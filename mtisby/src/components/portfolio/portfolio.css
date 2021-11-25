@@ -1,0 +1,197 @@
+@import url('../generalStyleSheet.css');
+
+.portfolio{
+    background-color: #020D13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100vw;
+}
+
+.myStack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    align-items: center;
+
+
+    background-color: var(--mediumBlueTwo);
+    border: 2px solid var(--mediumBlueTwo);
+    border-radius: 2em;
+
+    margin-top: 1em;
+}
+
+.myStack img{
+    width: 3em;
+    margin: 1em;
+
+    transition: .5s;
+}
+
+.myStack .express{
+    width: 6em;
+}
+
+.portfolioHeaderh1{
+    color: white;
+    font-family: var(--projectFont);
+    font-size: 3.5em;
+    margin-top: 1em;
+}
+
+.portfolioHeaderh3{
+    color: white;
+    font-family: var(--projectFont);
+    font-size: 2.5em;
+}
+
+.projects{
+    width: 80vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-bottom: 1em;
+}
+
+.projectDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--mediumBlueTwo);
+    border: 2px solid var(--mediumBlueTwo);
+    border-radius: 2em;
+    margin: 2em;
+    padding-bottom: 1.5em; 
+
+    transition: all 1.5s;
+
+    width: 25em;
+}
+
+.miniProjectDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--mediumBlueTwo);
+    border: 2px solid var(--mediumBlueTwo);
+    border-radius: 2em;
+    margin: 2em;
+    padding-bottom: 1.5em; 
+
+    transition: all 1.5s;
+
+    width: 25em;
+}
+
+.projectDiv img{
+    width: 15em;
+    transition: all 1s;
+}
+
+.miniProjectDiv img{
+    width: 15em;
+    transition: all 1s;
+}
+
+.projectHeader{
+    font-size: 2.5em;
+    font-family: var(--projectFont);
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+    margin-top: .5em;
+
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projectButtons{
+    /* sizing */
+    width: 8em;
+    /* box model */
+    margin: 1em;
+    padding: .25em 1em;
+
+    /* color and design */
+    background-color: var(--darkTeal);
+    border: 2px solid var(--darkTeal);
+    border-radius: 5em;
+
+    /* font design */
+    color: white;
+    font-size: 1.25em;
+    font-family: var(--projectFont);
+    font-weight: bold;
+
+    /*transition*/
+    transition: all .5s;
+}
+
+.projectButtons a{
+    color: white;
+    text-decoration: none;
+}
+
+/* interaction */
+/*projects*/
+.projectDiv:hover{
+    box-shadow: 0 1.5em 3em var(--lightBlue);
+    transform: translateY(-0.25em);
+}
+
+
+
+.projectDiv .projectButtons:hover{
+    background-color: var(--lightOrange2);
+    border: 2px solid var(--lightOrange2);
+    cursor: pointer;
+}
+
+
+.myStack img:hover{
+    filter: drop-shadow(0 0 1em var(--lightBlue));
+    background-color: #aee8f100;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) { 
+    .myStack{
+        width: 65vw;
+        justify-content: center;
+    }
+
+    .portfolioHeaderh1{
+        font-size: 3em;
+    }
+
+    .projectHeader{
+        font-size: 2em;
+        text-align: center;
+    }
+
+
+    .projectDiv img{
+        margin: 1em;
+    }
+    
+    .miniProjectDiv img{
+        margin: 1em;
+    }
+    
+ }
+
