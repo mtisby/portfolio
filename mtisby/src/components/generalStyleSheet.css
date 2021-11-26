@@ -1,7 +1,5 @@
 html{
-    --bannerFont: 'Montserrat Subrayada', sans-serif;
-    --projectFont: 'Raleway', sans-serif;
-    --projHeaderFont: 'Recursive', sans-serif;
+    --head-font: 'Bungee', cursive;
     
     --darkGray: #180E0F;
     --mediumBlue: #242323;
@@ -14,5 +12,19 @@ html{
     --grey: #818181;
     --darkTeal: #053546;
 
-    background-color: #020D13;
+    background-color: white;
+
+    --purple: #A259FF;
+    --lavendar: #C08EFF;
+    --blood-orange: #F24E1E;
+    --salmon: #FF7262;
+    --blue: #1ABCFE;
+    --seafoam: #0ACF83;
+    --light-green: #81E08A;
+    --dark-green: #06A065;
+    --mauv: #EA79A8;
+    --fuchsia: #FF2E86;
+    --cream2: #F8F5EF;
+    --grey: #E5E5E5;
+    --grey2: #c3c3c3;
 }

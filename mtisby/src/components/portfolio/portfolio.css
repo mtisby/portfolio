@@ -1,7 +1,10 @@
 @import url('../generalStyleSheet.css');
 
 .portfolio{
-    background-color: #020D13;
+    /* background-color: #020D13; */
+    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637890054/portfolio/polkadot-bg-2_rkg6jh.png');
+    /* background-repeat: no-repeat; */
+    background-size: contain;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,41 +12,22 @@
     width: 100vw;
 }
 
-.myStack{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: baseline;
-    align-items: center;
-
-
-    background-color: var(--mediumBlueTwo);
-    border: 2px solid var(--mediumBlueTwo);
-    border-radius: 2em;
-
-    margin-top: 1em;
-}
-
-.myStack img{
-    width: 3em;
-    margin: 1em;
-
-    transition: .5s;
-}
-
-.myStack .express{
-    width: 6em;
-}
-
 .portfolioHeaderh1{
-    color: white;
-    font-family: var(--projectFont);
+    color: black;
+    background-color: #fff;
+    border: 4px solid white;
+
+    font-family: var(--head-font);
     font-size: 3.5em;
     margin-top: 1em;
 }
 
 .portfolioHeaderh3{
-    color: white;
-    font-family: var(--projectFont);
+    color: black;
+    background-color: #fff;
+    border: 4px solid white;
+
+    font-family: var(--head-font);
     font-size: 2.5em;
 }
 
@@ -65,9 +49,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    background-color: var(--mediumBlueTwo);
-    border: 2px solid var(--mediumBlueTwo);
+    background-color: white;
+    border: 2px solid gray;
     border-radius: 2em;
     margin: 2em;
     padding-bottom: 1.5em; 
@@ -83,8 +66,8 @@
     justify-content: center;
     align-items: center;
     
-    background-color: var(--mediumBlueTwo);
-    border: 2px solid var(--mediumBlueTwo);
+    background-color: white;
+    border: 2px solid white;
     border-radius: 2em;
     margin: 2em;
     padding-bottom: 1.5em; 
@@ -106,9 +89,9 @@
 
 .projectHeader{
     font-size: 2.5em;
-    font-family: var(--projectFont);
+    font-family: var(--head-font);
     font-weight: bold;
-    color: white;
+    color: black;
     margin-bottom: 0;
     margin-top: .5em;
 
@@ -116,26 +99,25 @@
 
 .buttonDiv{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
-.projectButtons{
-    /* sizing */
-    width: 8em;
-    /* box model */
-    margin: 1em;
-    padding: .25em 1em;
+.buttonDiv img{
+    width: 1.5em;
+}
 
-    /* color and design */
-    background-color: var(--darkTeal);
-    border: 2px solid var(--darkTeal);
-    border-radius: 5em;
+.projectButtons{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+    margin: 1em;
 
     /* font design */
     color: white;
     font-size: 1.25em;
-    font-family: var(--projectFont);
+    /* font-family: var(--head-font); */
     font-weight: bold;
 
     /*transition*/
@@ -150,24 +132,17 @@
 /* interaction */
 /*projects*/
 .projectDiv:hover{
-    box-shadow: 0 1.5em 3em var(--lightBlue);
+    box-shadow: 0 0 50px rgba(80, 80, 80, 0.657);
     transform: translateY(-0.25em);
 }
 
 
 
 .projectDiv .projectButtons:hover{
-    background-color: var(--lightOrange2);
-    border: 2px solid var(--lightOrange2);
+    transform: translateY(-0.25em);
     cursor: pointer;
 }
 
-
-.myStack img:hover{
-    filter: drop-shadow(0 0 1em var(--lightBlue));
-    background-color: #aee8f100;
-    cursor: pointer;
-}
 
 @media (max-width: 900px) { 
     .myStack{

@@ -10,6 +10,11 @@
     text-decoration: none;
 
     font-family: var(--projHeaderFont);
+
+    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637547646/paint-app/Untitled_6_oaeouc.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .source a{

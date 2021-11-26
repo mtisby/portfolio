@@ -5,38 +5,14 @@ html{
 
 .intro{
     height: 100vh;
-    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636572856/portfolio/bgimg_d5aagg.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 18%;
-    background-size: cover;
-    background-color: #020D13;
-}
-
-.nameAndDescript{
-    height: 100%;
-    margin-top: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    margin-left: 5em;
-}  
-
-.name{
-    text-align: center;
-    color: white;
-    font-family: var(--bannerFont);
-    font-size: 5em;
 }
-
-.description{
-    text-align: center;
-    color: white;
-    font-family: var(--projectFont);
-    font-size: 1.5em;
-
-    margin-left: 2em;
-}
+ .intro img{
+     width: 30vw;
+ }
 
 @media (max-width: 900px) {
     .intro{
