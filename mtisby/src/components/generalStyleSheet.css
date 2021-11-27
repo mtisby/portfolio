@@ -1,5 +1,7 @@
 html{
     --head-font: 'Bungee', cursive;
+    --head-font2: 'Fredoka One', cursive;
+    --text-font: 'Red Hat Display', sans-serif;
     
     --darkGray: #180E0F;
     --mediumBlue: #242323;
@@ -19,6 +21,7 @@ html{
     --blood-orange: #F24E1E;
     --salmon: #FF7262;
     --blue: #1ABCFE;
+    --lightBlue: #67d4ff;
     --seafoam: #0ACF83;
     --light-green: #81E08A;
     --dark-green: #06A065;

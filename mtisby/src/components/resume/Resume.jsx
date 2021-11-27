@@ -6,7 +6,7 @@ const Resume = () => {
         <div className="resume">
             <div className="divLeft">
                 <div className="divLeft-Color">
-                    <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636672805/portfolio/picture_zb5vbf.jpg" alt="mtisby-profile" />
+                    <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636672805/portfolio/picture_zb5vbf.jpg" alt="mtisby-profile" className="profilePic"/>
                     <h1>My Stack</h1>
                     <div className="myStack-Resume">
                         <p>JavaScript, React.js, Node.js, Express.js, Python, MongoDB</p>
@@ -19,11 +19,11 @@ const Resume = () => {
                     </div>
                 </div>
 
-                <button><a href="https://docs.google.com/document/d/1BVQTIlIHhvjXhMXVxH7-L1vTFLRkhV4bye12D-nbcGc/edit?usp=sharing" download="mtisby-resume">Download the pdf</a></button>
+                <div className="downloadBtn"><button><a href="https://docs.google.com/document/d/1BVQTIlIHhvjXhMXVxH7-L1vTFLRkhV4bye12D-nbcGc/edit?usp=sharing" download="mtisby-resume"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637452518/paint-app/logos/save_bh2gor.png" alt="download-button"/></a></button></div>
 
             </div>
             <div className="divRight">
-            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQHfCDoO84b41j0RgmsYa13Psof1XKl-8_WKuL9KRlxnw5ZB3e03ZBVuoT--a39nsXbP_YrhTxYiJCP/pub?embedded=true" title="resume"></iframe>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQHfCDoO84b41j0RgmsYa13Psof1XKl-8_WKuL9KRlxnw5ZB3e03ZBVuoT--a39nsXbP_YrhTxYiJCP/pub?embedded=true" title="resume" scrolling="no"></iframe>
             </div>
 
         </div>

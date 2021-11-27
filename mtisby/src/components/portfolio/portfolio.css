@@ -1,9 +1,7 @@
 @import url('../generalStyleSheet.css');
 
 .portfolio{
-    /* background-color: #020D13; */
     background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637890054/portfolio/polkadot-bg-2_rkg6jh.png');
-    /* background-repeat: no-repeat; */
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -12,23 +10,18 @@
     width: 100vw;
 }
 
-.portfolioHeaderh1{
-    color: black;
-    background-color: #fff;
-    border: 4px solid white;
-
-    font-family: var(--head-font);
-    font-size: 3.5em;
+.portfolioHeaderh1 img{
+   
     margin-top: 1em;
 }
 
 .portfolioHeaderh3{
-    color: black;
+    color: var(--blue);
     background-color: #fff;
-    border: 4px solid white;
+    border: 0px solid white;
 
     font-family: var(--head-font);
-    font-size: 2.5em;
+    font-size: 3.5em;
 }
 
 .projects{
@@ -88,12 +81,13 @@
 }
 
 .projectHeader{
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: var(--head-font);
     font-weight: bold;
     color: black;
     margin-bottom: 0;
-    margin-top: .5em;
+    margin: .5em 0;
+    text-align: center;
 
 }
 

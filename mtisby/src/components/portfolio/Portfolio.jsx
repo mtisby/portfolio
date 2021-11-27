@@ -30,7 +30,7 @@ const Portfolio = () => {
 
     return (
         <div className='portfolio'>
-            <h1 className="portfolioHeaderh1">Projects</h1>
+            <h1 className="portfolioHeaderh1"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637970943/portfolio/Untitled_25_pwhhaj.png" alt="" /></h1>
             <div className="projects">
             <div className="projectDiv">
                     <h1 className="projectHeader">Poodle Doodle</h1>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className="projectDiv">
-                    <h1 className="projectHeader">Cheflavor Staff Portal</h1>
+                    <h1 className="projectHeader">Staff Portal</h1>
                     <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636855473/portfolio/staff-portal_owyzce.png" alt="cheflavor-website-gif" id="cheflavor-staffportal"/>
                     <div className="buttonDiv">
                         <button className="projectButtons"><a href="https://protected-scrubland-89262.herokuapp.com/cheflavor/stafflogin/login"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637450368/paint-app/logos/Website_pt9szx.png" alt="website" /></a></button>

@@ -4,14 +4,14 @@ html{
 }
 
 .intro{
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
  .intro img{
-     width: 30vw;
+     width: 50vw;
  }
 
 @media (max-width: 900px) {
