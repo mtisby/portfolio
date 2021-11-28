@@ -26,12 +26,6 @@ const Portfolio = () => {
         }
     }
 
-    const handlePopUp = (e) => {
-        console.log(e)
-    }
-
-
-
     return (
         <div className='portfolio'>
             <h1 className="portfolioHeaderh1"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637970943/portfolio/Untitled_25_pwhhaj.png" alt="" /></h1>
