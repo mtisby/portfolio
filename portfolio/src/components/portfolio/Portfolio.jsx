@@ -26,6 +26,10 @@ const Portfolio = () => {
         }
     }
 
+    const handlePopUp = (e) => {
+        console.log(e)
+    }
+
 
 
     return (
@@ -52,13 +56,13 @@ const Portfolio = () => {
                     <h1 className="projectHeader">Staff Portal</h1>
                     <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636855473/portfolio/staff-portal_owyzce.png" alt="cheflavor-website-gif" id="cheflavor-staffportal"/>
                     <div className="buttonDiv">
-                        <button className="projectButtons"><a href="https://protected-scrubland-89262.herokuapp.com/cheflavor/stafflogin/login"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637450368/paint-app/logos/Website_pt9szx.png" alt="website" /></a></button>
+                        <button className="projectButtons"><a href="https://protected-scrubland-89262.herokuapp.com/cheflavor/stafflogin/login"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637450368/paint-app/logos/Website_pt9szx.png" alt="website" id="stProjBtn"/></a></button>
                         <button className="projectButtons"><a href="https://github.com/mtisby/cheflavor"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637450368/paint-app/logos/GitHub_qb49mi.png" alt="github-logo" /></a></button>
                     </div>
                 </div>
                 <div className="projectDiv">
                     <h1 className="projectHeader">Star Campsites</h1>
-                <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636656190/portfolio/star-campsites_veouus.png" alt="star campsites website gif" id="star-campsites"/>
+                    <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636656190/portfolio/star-campsites_veouus.png" alt="star campsites website gif" id="star-campsites"/>
                     <div className="buttonDiv">
                         <button className="projectButtons"><a href="https://secure-gorge-90469.herokuapp.com/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637450368/paint-app/logos/Website_pt9szx.png" alt="website" /></a></button>
                         <button className="projectButtons"><a href="https://github.com/mtisby/star-campsites"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637450368/paint-app/logos/GitHub_qb49mi.png" alt="github-logo" /></a></button>

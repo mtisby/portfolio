@@ -123,6 +123,14 @@
     text-decoration: none;
 }
 
+.hideMe{
+    display: hidden;
+}
+
+.unHideMe{
+    display: show;
+}
+
 /* interaction */
 /*projects*/
 .projectDiv:hover{
