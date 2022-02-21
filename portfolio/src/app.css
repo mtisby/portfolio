@@ -1,5 +1,11 @@
 html{
-    background-color: white;
+    background-color: #000000;
+    --pink: #ffb1e0;
+    --pink-two: #ff75c8;
+
+    --font: 'IBM Plex Mono', monospace;
+    --font-one:'Roboto Mono', monospace;
+    --font-two:'Roboto', sans-serif;
 }
 
 *{
@@ -8,8 +14,25 @@ html{
 
 .App{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: var(--pink);
+    font-family: var(--font);
 }
 
+.App a{
+    text-decoration: none;
+    color: var(--pink-two);
+}
+
+.text{
+    width: 40vw;
+    text-align: center;
+    margin-top: 0;
+}
 
 ::-webkit-scrollbar{
     display: none;
