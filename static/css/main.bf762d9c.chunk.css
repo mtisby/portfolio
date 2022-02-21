@@ -1,0 +1,2 @@
+html{background-color:#000;--pink:#ff96d5;--font:"Roboto Mono",monospace;--font-one:"Roboto",sans-serif}*{margin:0}.App{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background-color:#000;color:#ff96d5;color:var(--pink);font-family:"Roboto Mono",monospace;font-family:var(--font)}.App a{text-decoration:none;color:#f0f}::-webkit-scrollbar{display:none}
+/*# sourceMappingURL=main.bf762d9c.chunk.css.map */
