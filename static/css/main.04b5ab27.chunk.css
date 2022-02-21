@@ -1,0 +1,2 @@
+html{background-color:#000;--pink:#ffb1e0;--pink-two:#ff75c8;--font:"IBM Plex Mono",monospace;--font-one:"Roboto Mono",monospace;--font-two:"Roboto",sans-serif}*{margin:0}.App{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;background-color:#000;color:#ffb1e0;color:var(--pink);font-family:"IBM Plex Mono",monospace;font-family:var(--font)}.App a{text-decoration:none;color:#ff75c8;color:var(--pink-two)}.text{width:30vw}::-webkit-scrollbar{display:none}
+/*# sourceMappingURL=main.04b5ab27.chunk.css.map */
