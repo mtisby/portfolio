@@ -1,0 +1,21 @@
+.sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 3vw;
+    z-index: 5;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    margin: 0 2em;
+}
+
+.sidebar .logo{
+    width: 2em;
+    margin: 1em 0;
+}
+
+.sidebar .line-asset{
+    height: 20vh;
+}

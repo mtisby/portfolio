@@ -1,0 +1,28 @@
+.homePg{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homePg .content{
+    z-index: 1;
+}
+
+@keyframes opacityOfftoOn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+.homePg .intro-logo{
+    animation-duration: 5s;
+    animation-name: opacityOfftoOn;
+    animation-delay: -0s;
+}

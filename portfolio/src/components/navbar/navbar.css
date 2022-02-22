@@ -1,5 +1,29 @@
 .navbar{
     color: white;
-
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: .25em 2em;
+    z-index: 1;
+}
+
+.navbar img{
+    width: 5em;
+}
+
+.navbar .left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar .right p{
+    margin: 0 2em;
 }
