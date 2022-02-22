@@ -1,18 +1,19 @@
 import { render } from "react-dom";
-import { HashRouter, Routes,Route } from 'react-router-dom';
-import App from "./pages/Home";
-
+import { BrowserRouter, Routes,Route } from 'react-router-dom';
+import App from "./pages/Splash";
+import Home from "./pages/Home";
 
 
 const rootElement = document.getElementById("root");
 render(
-    <HashRouter>
+    <BrowserRouter
+    basename="/portfolio">
         <Routes>
           <Route path="/" element={<App />} />
+            <Route path="/home" element={<Home />} />
         </Routes>
-    </HashRouter>,
+    </BrowserRouter>,
   rootElement
-    
 );
 
 /* <HashRouter basename="/calendar"/>
