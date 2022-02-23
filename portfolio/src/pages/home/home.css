@@ -22,7 +22,7 @@
 }
 
 .homePg .intro-logo{
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-name: opacityOfftoOn;
-    animation-delay: -0s;
+    animation-delay: 0s;
 }
