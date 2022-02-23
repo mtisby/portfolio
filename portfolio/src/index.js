@@ -1,6 +1,6 @@
 import { render } from "react-dom";
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
-import App from "./pages/Splash";
+import Splash from "./pages/Splash";
 import Home from "./pages/home/Home";
 
 
@@ -9,7 +9,7 @@ render(
     <BrowserRouter
     basename="/portfolio">
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<Splash />} />
             <Route path="/home" element={<Home />} />
         </Routes>
     </BrowserRouter>,

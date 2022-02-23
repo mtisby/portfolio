@@ -1,15 +1,21 @@
 .navbar{
     color: white;
+    background-color: black;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     width: 90vw;
-    margin: .25em 2em;
-    z-index: 1;
+    padding: 3.5em 2em;
+    z-index: 5;
+    position: fixed;
+    top: 0px;
+
+    font-family: 'Kanit', sans-serif;
 }
 
 .navbar img{
-    width: 5em;
+    width: 1em;
+    margin: 0 1em;
 }
 
 .navbar .left{

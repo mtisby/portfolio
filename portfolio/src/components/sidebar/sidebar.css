@@ -1,11 +1,12 @@
 .sidebar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 3vw;
+    height: 100vh;
+    width: 5vw;
     z-index: 5;
-    position: absolute;
+    position: fixed;
     bottom: 10px;
     left: 0px;
     margin: 0 2em;
@@ -19,3 +20,32 @@
 .sidebar .line-asset{
     height: 20vh;
 }
+
+.sidebar .top{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 3vw;
+}
+
+.sidebar .top img{
+    width: 5em;
+    margin-top: 2em;
+}
+
+.sidebar .bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar .bottom img{
+    transition: transform 1s;
+}
+
+.sidebar .bottom img:hover{
+    transform: translateY(-5px);
+}
+

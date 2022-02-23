@@ -5,12 +5,12 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='left'>
-        <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645502845/portfolio/MKT_b10dn1.png" alt="Mariel's Portfolio Logo" />
+        
       </div>
       <div className='right'>
         <p>About Me</p>
         <p>Projects</p>
-        <p>Resume</p>
+        <p>Resume <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645657819/portfolio/updated%20logos/dark%20mode/download_j00mnq.png" alt="download image" /></p>
       </div>
     </div>
   )
