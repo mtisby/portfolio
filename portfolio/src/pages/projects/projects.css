@@ -1,3 +1,15 @@
+html{
+    background-color: #000000;
+    --pink: #ffb1e0;
+    --pink-two: #ff75c8;
+    --dark-mauv: #C22C86;
+
+    --font: 'IBM Plex Mono', monospace;
+    --font-one:'Roboto Mono', monospace;
+    --font-two:'Roboto', sans-serif;
+    --font-three: 'Kanit', sans-serif;
+}
+
 .projects{
     margin: 5em;
     display: flex;
@@ -8,6 +20,9 @@
 
 .projects .header{
     margin: 1em;
+    font-family: var(--font-three);
+    font-size: 3em;
+    color: var(--pink-two);
 }
 
 .projects-grid{
@@ -28,20 +43,11 @@
     grid-row-start:1;
     grid-row-end:3;
     height: 50vh;
-
-    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645727101/portfolio/cinema_save_placeholder_ghrroi.png');
-    background-size: contain;
 }
 
 .cheflavor{
     grid-column-start: 3;
     grid-column-end: 4;
-
-    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636656191/portfolio/cheflavor_dzfi1a.png');
-    background-size: auto;
-    background-repeat: no-repeat;
-
-
 }
 
 .cheflavor-staff{
@@ -50,34 +56,41 @@
 }
 
 .poodle-doodle{
+    grid-row-start:3;
+    grid-row-end:5;
+    height: 40vh;
+}
+
+.sheNetworks{
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start:2;
     grid-row-end:5;
-
-    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637557563/paint-app/poodle-doodle_gkby0l.png');
-    background-size: contain;
 }
 
-.sheNetworks{
-    grid-row-start:3;
-    grid-row-end:5;
-    height: 20vh;
-
-    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645727105/portfolio/sheNetworks_z0gemm.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+.sheNetworks img{
+    width: 60%;
 }
 
 .projectDiv img{
-    width: 15em;
-    transition: all 1s;
+    width: 75%;
+    margin: 1em;
 }
 
 .projectDiv{
-    background-color: #fff;
+    background-color: #171717;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttonDiv img{
     width: 2em;
+    transition: 1s;
+}
+
+.buttonDiv img:hover{
+    transform: translateY(-5px);
 }

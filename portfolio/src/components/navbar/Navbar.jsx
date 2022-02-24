@@ -9,10 +9,10 @@ const Navbar = () => {
         
       </div>
       <div className='right'>
-        <Link to='aboutme'>
+        <Link to='aboutme' smooth={true}>
           <p>About Me</p>
         </Link>
-        <Link to='projects'>
+        <Link to='projects' smooth={true}>
           <p>Projects</p>
         </Link>
         <a target="_blank" href="https://docs.google.com/document/d/1BVQTIlIHhvjXhMXVxH7-L1vTFLRkhV4bye12D-nbcGc/edit?usp=sharing" download="mtisby-resume">
