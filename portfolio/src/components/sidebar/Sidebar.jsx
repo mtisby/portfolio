@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <div className='sidebar'>
       <div className='top'>
-        <Link to='home'><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645502845/portfolio/MKT_b10dn1.png" alt="Mariel's Portfolio Logo" /></Link>
+        <Link to='home' smooth={true}><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645502845/portfolio/MKT_b10dn1.png" alt="Mariel's Portfolio Logo" /></Link>
       </div>
       <div className='bottom'>
         {/* <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564357/portfolio/updated%20logos/dark%20mode/sun_diwa0x.png" alt="light-mode" className='logo' /> */}

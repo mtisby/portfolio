@@ -42,7 +42,7 @@ function Projects() {
         </div>
         <div className="projectDiv cheflavor">
             {/* <h1 className="projectHeader">Cheflavor</h1> */}
-            <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636656191/portfolio/cheflavor_dzfi1a.png" alt="cheflavor website gif" id="cheflavor"/> 
+            <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742752/portfolio/Portfolio_rrh6em.png" alt="cheflavor website gif" id="cheflavor"/> 
             <div className="buttonDiv">
                 <a target="_blank" href="https://protected-scrubland-89262.herokuapp.com/cheflavor"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 <a target="_blank" href="https://github.com/mtisby/cheflavor"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
@@ -50,7 +50,7 @@ function Projects() {
         </div>
         <div className="projectDiv cheflavor-staff">
             {/* <h1 className="projectHeader">Cheflavor Staff Portal</h1> */}
-            <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1636855473/portfolio/staff-portal_owyzce.png" alt="cheflavor-website-gif" id="cheflavor-staffportal"/>
+            <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742752/portfolio/cheflavor-staffportal_mcskfu.png" id="cheflavor-staffportal"/>
             <div className="buttonDiv">
                 <a target="_blank" href="https://protected-scrubland-89262.herokuapp.com/cheflavor/stafflogin/login"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 <a target="_blank" href="https://github.com/mtisby/cheflavor"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
@@ -59,7 +59,7 @@ function Projects() {
 
         <div className="projectDiv grid-col-span-2 poodle-doodle">
             {/* <h1 className="projectHeader">Poodle Doodle</h1> */}
-            <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637557563/paint-app/poodle-doodle_gkby0l.png" alt="poodle doodle website gif" id="poodle-doodle"/>
+            <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742752/portfolio/poodle-doodle_m9fv1l.png" alt="poodle doodle website gif" id="poodle-doodle"/>
             <div className="buttonDiv">
                 <a target="_blank" href="https://pacific-bastion-50258.herokuapp.com/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 <a target="_blank" href="https://github.com/mtisby/paint-app"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
@@ -68,7 +68,7 @@ function Projects() {
 
         <div className="projectDiv grid-col-span-2 sheNetworks">
             {/* <h1 className="projectHeader">sheNetworks</h1> */}
-            <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645736760/portfolio/Screen_Shot_2022-02-24_at_1.05.42_PM_suh7du.png" id="sheNetworks"/> 
+            <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742963/portfolio/sheNetworks_qnvk1z.png" id="sheNetworks"/> 
             <div className="buttonDiv">
                 <a target="_blank" href="https://quiet-anchorage-71064.herokuapp.com/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 <a target="_blank" href="https://github.com/mtisby/she-hacks"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
