@@ -42,10 +42,13 @@
 }
 
 .sidebar .bottom img{
-    transition: transform 1s;
+    transition: 1s;
 }
 
 .sidebar .bottom img:hover{
     transform: translateY(-5px);
 }
 
+.sidebar .top img:hover{
+    cursor: pointer;
+}

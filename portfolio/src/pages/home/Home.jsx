@@ -9,16 +9,16 @@ import "./home.css"
 function Home() {
   return (
   
-    <div className='homePg'>
+    <div className='homePg' id='home'>
       <Navbar />
       <Sidebar className="sidebar" />
       <div className='content'>
         <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564393/portfolio/updated%20logos/dark%20mode/MKT_k7cg04.png" className='intro-logo' alt="logo" />
       </div>
-      <div className='aboutme-content'>
+      <div className='aboutme-content' id='aboutme'>
         <AboutMe />
       </div>
-      <div className='projects-content'>
+      <div className='projects-content' id='projects'>
         <Projects />
       </div>
     </div>
