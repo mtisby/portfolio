@@ -52,3 +52,19 @@
 .sidebar .top img:hover{
     cursor: pointer;
 }
+
+@keyframes opacityOfftoOn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+.sidebar{
+    animation-duration: 3s;
+    animation-name: opacityOfftoOn;
+    animation-delay: 0s;
+}

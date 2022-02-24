@@ -54,3 +54,19 @@ html{
     cursor: pointer;
     color: var(--pink-two);
 }
+
+@keyframes opacityOfftoOn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+.navbar{
+    animation-duration: 3s;
+    animation-name: opacityOfftoOn;
+    animation-delay: 0s;
+}
