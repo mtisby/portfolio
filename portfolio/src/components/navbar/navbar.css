@@ -70,3 +70,10 @@ html{
     animation-name: opacityOfftoOn;
     animation-delay: 0s;
 }
+
+@media (max-width: 765px) { 
+    .navbar{
+        display: none;
+    }
+        
+ }

@@ -14,6 +14,7 @@ html{
     background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564412/portfolio/updated%20logos/dark%20mode/bg-2_rjjmo1.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     
     display: flex;
     flex-direction: column;
@@ -87,3 +88,15 @@ html{
 .contactus img:hover{
     transform: translateY(-5px);
 }
+
+@media (max-width: 765px) { 
+    .aboutme{
+        background-image: none;
+    }
+
+    .mariel{
+        width: 20em;
+    }
+        
+  
+ }

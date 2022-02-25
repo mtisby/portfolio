@@ -16,6 +16,8 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    width: 100vw;
 }
 
 .projects .header{
@@ -42,7 +44,7 @@ html{
     grid-column-end: 3;
     grid-row-start:1;
     grid-row-end:3;
-    height: 50vh;
+    height: 100%;
 }
 
 .cheflavor{
@@ -58,11 +60,7 @@ html{
 .poodle-doodle{
     grid-row-start:3;
     grid-row-end:5;
-    height: 40vh;
-}
-
-.poodle-doodle img{
-    width: 35%;
+    height: 100%;
 }
 
 .sheNetworks{
@@ -98,3 +96,17 @@ html{
 .buttonDiv img:hover{
     transform: translateY(-5px);
 }
+
+@media (max-width: 925px) {  
+    .projects{
+        margin: 0;
+    }
+    
+    .projects-grid{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+ }

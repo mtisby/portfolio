@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
-import { lightMode, darkMode } from "../mode/mode"
+import { darkModeAssests, lightModeAssests } from "../mode/mode"
 
 import "./navbar.css"
 
@@ -20,7 +20,7 @@ const Navbar = () => {
           <p>Projects</p>
         </Link>
         <a target="_blank" href="https://docs.google.com/document/d/1BVQTIlIHhvjXhMXVxH7-L1vTFLRkhV4bye12D-nbcGc/edit?usp=sharing" download="mtisby-resume">
-          <p>Resume <img src={ mode === 'dark-mode' ? darkMode['download'] : lightMode['download'] } alt="download image" /></p>
+          <p>Resume <img src={ mode === 'dark-mode' ? darkModeAssests['download'] : lightModeAssests['download'] } alt="download image" /></p>
         </a>
       </div>
     </div>

@@ -1,4 +1,4 @@
-let lightMode = {
+let lightModeAssests = {
     "bg-img": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756146/portfolio/updated%20logos/light-mode/bg_wht_lji0pa.png",
     "github": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756146/portfolio/updated%20logos/light-mode/github-logo-2_hyrg8x.png",
     "mt-logo": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756146/portfolio/updated%20logos/light-mode/Copy_of_MKT_1_qquzle.png",
@@ -10,7 +10,7 @@ let lightMode = {
     "download": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756133/portfolio/updated%20logos/light-mode/download-light-mode_onctwg.png"
 }
 
-let darkMode = {
+let darkModeAssests = {
     "bg-img": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564412/portfolio/updated%20logos/dark%20mode/bg-2_rjjmo1.png",
     "github": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png",
     "mt-logo": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564393/portfolio/updated%20logos/dark%20mode/MKT_k7cg04.png",
@@ -22,4 +22,4 @@ let darkMode = {
     "download": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645657819/portfolio/updated%20logos/dark%20mode/download_j00mnq.png"
 }
 
-export { darkMode, lightMode }
+export { darkModeAssests, lightModeAssests }
