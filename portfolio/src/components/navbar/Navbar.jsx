@@ -1,8 +1,12 @@
-import React from 'react'
+import { React, useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import { lightMode, darkMode } from "../mode/mode"
+
 import "./navbar.css"
 
 const Navbar = () => {
+  let mode = "dark-mode"
+
   return (
     <div className='navbar'>
       <div className='left'>
@@ -16,7 +20,7 @@ const Navbar = () => {
           <p>Projects</p>
         </Link>
         <a target="_blank" href="https://docs.google.com/document/d/1BVQTIlIHhvjXhMXVxH7-L1vTFLRkhV4bye12D-nbcGc/edit?usp=sharing" download="mtisby-resume">
-          <p>Resume <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645657819/portfolio/updated%20logos/dark%20mode/download_j00mnq.png" alt="download image" /></p>
+          <p>Resume <img src={ mode === 'dark-mode' ? darkMode['download'] : lightMode['download'] } alt="download image" /></p>
         </a>
       </div>
     </div>

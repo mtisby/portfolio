@@ -8,6 +8,30 @@ html{
     --font-two:'Roboto', sans-serif;
 }
 
+.dark-mode{
+    background-color: #000000;
+    --pink: #ffb1e0;
+    --pink-two: #ff75c8;
+
+    --font: 'IBM Plex Mono', monospace;
+    --font-one:'Roboto Mono', monospace;
+    --font-two:'Roboto', sans-serif;
+
+    --bg-img: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564412/portfolio/updated%20logos/dark%20mode/bg-2_rjjmo1.png');
+}
+
+.light-mode{
+    background-color: #ffffff;
+    --navy: #021776;
+    --pink-two: #ff75c8;
+
+    --font: 'IBM Plex Mono', monospace;
+    --font-one:'Roboto Mono', monospace;
+    --font-two:'Roboto', sans-serif;
+
+    --bg-img: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564412/portfolio/updated%20logos/dark%20mode/bg-2_rjjmo1.png');
+}
+
 *{
     margin: 0;
 }

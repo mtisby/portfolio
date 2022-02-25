@@ -1,19 +1,29 @@
-import React from 'react'
+import { React, useState } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+import { lightMode, darkMode } from '../mode/mode';
+
 import "./sidebar.css"
 
+
 const Sidebar = () => {
+  const [mode, setMode] = useState('dark-mode')
+
+  const SetMode = () => {
+    mode === 'dark-mode' ? setMode('light-mode') : setMode('dark-mode');
+    console.log("mode", mode)
+  }
+
   return (
     <div className='sidebar'>
       <div className='top'>
-        <Link to='home' smooth={true}><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645502845/portfolio/MKT_b10dn1.png" alt="Mariel's Portfolio Logo" /></Link>
+        <Link to='home' smooth={true}><img src={ mode === 'dark-mode' ? darkMode['mt-logo'] : lightMode['mt-logo'] } alt="Mariel's Portfolio Logo" /></Link>
       </div>
       <div className='bottom'>
-        {/* <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564357/portfolio/updated%20logos/dark%20mode/sun_diwa0x.png" alt="light-mode" className='logo' /> */}
-        <a target="_blank" href="https://github.com/mtisby"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="Github" className='logo' /></a>
-        <a target="_blank" href="https://www.linkedin.com/in/mtisby/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564407/portfolio/updated%20logos/dark%20mode/linkeding_zbqaz5.png" alt="Linkedin" className='logo' /></a>
-        <a target="_blank" href="mailto: marieltisby1998@gmail.com"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564391/portfolio/updated%20logos/dark%20mode/email_sn5stt.png" alt="Email" className='logo' /></a>
-        <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645566077/portfolio/updated%20logos/dark%20mode/Line_1_wtdycn.png" alt="line" className='line-asset' />
+        <img onClick={SetMode} src={ mode === 'dark-mode' ? darkMode['changeto'] : lightMode['changeto'] } className='light-mode-button logo' id='mt-logo' />
+        <a target="_blank" href="https://github.com/mtisby"><img src={ mode === 'dark-mode' ? darkMode['github'] : lightMode['github'] } alt="Github" className='logo' id='github' /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mtisby/"><img src={ mode === 'dark-mode' ? darkMode['linkedin'] : lightMode['linkedin'] } alt="Linkedin" className='logo' id='linkedin' /></a>
+        <a target="_blank" href="mailto: marieltisby1998@gmail.com"><img src={ mode === 'dark-mode' ? darkMode['email'] : lightMode['email'] } alt="Email" className='logo' id='email' /></a>
+        <img src={ mode === 'dark-mode' ? darkMode['line-img'] : lightMode['line-img'] } alt="line" className='line-asset' id='line-img'/>
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
-import React from 'react'
+import { React, useState } from 'react';
+
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar';
 import AboutMe from '../about_me/Aboutme';
@@ -7,6 +8,8 @@ import Projects from '../projects/Projects';
 import "./home.css"
 
 function Home() {
+  const [mode, setMode] = useState('dark-mode')
+
   return (
   
     <div className='homePg' id='home'>
