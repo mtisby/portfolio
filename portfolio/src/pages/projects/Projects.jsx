@@ -4,10 +4,10 @@ import "./projects.css"
 
 function Projects() {
   const projectGifs = {
-    "cheflavor": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645743922/portfolio/Screen_Shot_2022-02-24_at_3.04.33_PM_m0p2nr.png",
-    "cheflavor-staffportal": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645744022/portfolio/Screen_Shot_2022-02-24_at_3.06.38_PM_qt4qn2.png",
-    "poodle-doodle": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1637555977/paint-app/Poodle_Doodle_-_Google_Chrome_2021-11-21_20-21-49_SparkVideo_1_x0u3jj.gif",
-    "sheNetworks": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645736760/portfolio/Screen_Shot_2022-02-24_at_1.05.42_PM_suh7du.png",
+    "cheflavor": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645748953/portfolio/cheflavor_lpoir4.png",
+    "cheflavor-staffportal": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645748628/portfolio/cheflavor-staffportal_lon02y.png",
+    "poodle-doodle": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645745521/portfolio/poodle_doodle_hsuj6f.png",
+    "sheNetworks": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645748410/portfolio/sheNetworks_cekap1.png",
     "cinema-save": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645737116/portfolio/cinema-save_agg2ay.png"
   }
 
