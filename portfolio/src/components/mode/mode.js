@@ -7,7 +7,8 @@ let lightModeAssests = {
     "line-img": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756215/portfolio/updated%20logos/light-mode/Line_1_ykcnnh.png",
     "website": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756363/portfolio/updated%20logos/light-mode/website-light-mode_sosbwb.png",
     "linkedin": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756146/portfolio/updated%20logos/light-mode/linkedin-2_aig2xq.png",
-    "download": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756133/portfolio/updated%20logos/light-mode/download-light-mode_onctwg.png"
+    "download": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645756133/portfolio/updated%20logos/light-mode/download-light-mode_onctwg.png",
+    "devpost": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1646088219/portfolio/updated%20logos/dark%20mode/devpost-logo_xtppgg.png"
 }
 
 let darkModeAssests = {
@@ -19,7 +20,8 @@ let darkModeAssests = {
     "line-img": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645566077/portfolio/updated%20logos/dark%20mode/Line_1_wtdycn.png",
     "website": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png",
     "linkedin": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564407/portfolio/updated%20logos/dark%20mode/linkeding_zbqaz5.png",
-    "download": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645657819/portfolio/updated%20logos/dark%20mode/download_j00mnq.png"
+    "download": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645657819/portfolio/updated%20logos/dark%20mode/download_j00mnq.png",
+    "devpost": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1646088627/portfolio/updated%20logos/dark%20mode/Portfolio_z8jbxz.png"
 }
 
 export { darkModeAssests, lightModeAssests }

@@ -21,6 +21,7 @@ const Sidebar = () => {
         {/* <img onClick={SetMode} src={ mode === 'dark-mode' ? darkModeAssests['changeto'] : lightModeAssests['changeto'] } className='light-mode-button logo' id='mt-logo' /> */}
         <a target="_blank" href="https://github.com/mtisby"><img src={ mode === 'dark-mode' ? darkModeAssests['github'] : lightModeAssests['github'] } alt="Github" className='logo' id='github' /></a>
         <a target="_blank" href="https://www.linkedin.com/in/mtisby/"><img src={ mode === 'dark-mode' ? darkModeAssests['linkedin'] : lightModeAssests['linkedin'] } alt="Linkedin" className='logo' id='linkedin' /></a>
+        <a target="_blank" href="https://devpost.com/mt1357?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"><img src={ mode === 'dark-mode' ? darkModeAssests['devpost'] : lightModeAssests['devpost'] } alt="Devpost" className='logo' id='devpost' /></a>
         <a target="_blank" href="mailto: marieltisby1998@gmail.com"><img src={ mode === 'dark-mode' ? darkModeAssests['email'] : lightModeAssests['email'] } alt="Email" className='logo' id='email' /></a>
         <img src={ mode === 'dark-mode' ? darkModeAssests['line-img'] : lightModeAssests['line-img'] } alt="line" className='line-asset' id='line-img'/>
       </div>
