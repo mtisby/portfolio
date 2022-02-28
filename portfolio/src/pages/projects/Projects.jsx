@@ -8,7 +8,7 @@ function Projects() {
     "cheflavor-staffportal": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645748628/portfolio/cheflavor-staffportal_lon02y.png",
     "poodle-doodle": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645745521/portfolio/poodle_doodle_hsuj6f.png",
     "sheNetworks": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645748410/portfolio/sheNetworks_cekap1.png",
-    "cinema-save": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645737116/portfolio/cinema-save_agg2ay.png"
+    "cinema-save": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1646087274/portfolio/Screen_Shot_2022-02-28_at_2.27.34_PM_efxk0u.png"
   }
 
   const handleHoverEnter = (e) => {
