@@ -32,7 +32,7 @@ function Projects() {
       <h1 className='header'>Projects</h1>
       <div className='projects-grid'>
         <div className="projectDiv grid-col-span-2 cinema-save">
-            {/* <h1 className="projectHeader">Cinema Save</h1> */}
+            <p className='currentProj'>Current Working Project</p>
             <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645737116/portfolio/cinema-save_agg2ay.png" id="cinema-save"/>
             <div className="buttonDiv">
                 <a target="_blank" href="https://mtisby.github.io/cinema-save-client/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>

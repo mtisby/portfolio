@@ -1,112 +1,115 @@
-html{
+html {
     background-color: #000000;
     --pink: #ffb1e0;
     --pink-two: #ff75c8;
-    --dark-mauv: #C22C86;
-
-    --font: 'IBM Plex Mono', monospace;
-    --font-one:'Roboto Mono', monospace;
-    --font-two:'Roboto', sans-serif;
-    --font-three: 'Kanit', sans-serif;
+    --dark-mauv: #c22c86;
+    --font: "IBM Plex Mono", monospace;
+    --font-one: "Roboto Mono", monospace;
+    --font-two: "Roboto", sans-serif;
+    --font-three: "Kanit", sans-serif;
 }
 
-.projects{
+.projects {
     margin: 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     width: 100vw;
 }
 
-.projects .header{
+.projects .header {
     margin: 1em;
     font-family: var(--font-three);
     font-size: 3em;
     color: var(--pink-two);
 }
 
-.projects-grid{
+.projects-grid {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(4, 1fr);
-
     width: 65vw;
 }
 
-.grid-col-span-2{
+.grid-col-span-2 {
     grid-column: span 2;
 }
 
-.cinema-save{
+.cinema-save {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start:1;
-    grid-row-end:3;
+    grid-row-start: 1;
+    grid-row-end: 3;
     height: 100%;
 }
 
-.cheflavor{
+.cheflavor {
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-.cheflavor-staff{
+.cheflavor-staff {
     grid-column-start: 4;
     grid-column-end: 5;
 }
 
-.poodle-doodle{
-    grid-row-start:3;
-    grid-row-end:5;
+.poodle-doodle {
+    grid-row-start: 3;
+    grid-row-end: 5;
     height: 100%;
 }
 
-.sheNetworks{
+.sheNetworks {
     grid-column-start: 3;
     grid-column-end: 5;
-    grid-row-start:2;
-    grid-row-end:5;
+    grid-row-start: 2;
+    grid-row-end: 5;
 }
 
-.sheNetworks img{
+.sheNetworks img {
     width: 30%;
 }
 
-.projectDiv img{
+.projectDiv img {
     width: 75%;
     margin: 1em;
 }
 
-.projectDiv{
+.projectDiv {
     background-color: #171717;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.buttonDiv img{
+.buttonDiv img {
     width: 2em;
     transition: 1s;
 }
 
-.buttonDiv img:hover{
+.buttonDiv img:hover {
     transform: translateY(-5px);
 }
 
-@media (max-width: 925px) {  
-    .projects{
+.currentProj {
+    font-family: var(--font-three);
+    font-size: 1.75em;
+    font-weight: bold;
+    margin-top: 0.5em;
+    color: white;
+}
+
+@media (max-width: 925px) {
+    .projects {
         margin: 0;
     }
-    
-    .projects-grid{
+    .projects-grid {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
         align-items: center;
         justify-content: center;
     }
- }
+}

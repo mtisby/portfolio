@@ -1,33 +1,29 @@
-.NotFound{
+.NotFound {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     width: 100vw;
-    height: 100%;
+    height: 100vh;
 }
 
-.bgimg{
-    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1646089007/portfolio/updated%20logos/dark%20mode/404_z6wq4m.png');
-    background-size: center;
-    background-repeat: no-repeat;
-
+.NotFound .container {
     width: 100vw;
-    height: 80vh;
-
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
-
-    color:#ff9bd7;
-
+    justify-content: center;
+    color: #ff9bd7;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 2em;
 }
 
-.NotFound a{
+.container {
+    margin-top: 5em;
+}
+
+.NotFound a {
     text-decoration: none;
-    color:#e9078f;
+    color: #e9078f;
 }
