@@ -89,6 +89,10 @@ html {
     transition: 1s;
 }
 
+.buttonDiv .sheNetworks-devpost {
+    width: 2.25em;
+}
+
 .buttonDiv img:hover {
     transform: translateY(-5px);
 }
