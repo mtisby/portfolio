@@ -100,3 +100,8 @@ html{
         
   
  }
+
+ .mercury {
+    text-decoration: none;
+    color: var(--pink);
+ }
