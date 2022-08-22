@@ -1,0 +1,107 @@
+html{
+    background-color: #000000;
+    --pink: #ffb1e0;
+    --pink-two: #ff75c8;
+    --dark-mauv: #C22C86;
+
+    --font: 'IBM Plex Mono', monospace;
+    --font-one:'Roboto Mono', monospace;
+    --font-two:'Roboto', sans-serif;
+    --font-three: 'Kanit', sans-serif;
+}
+
+.aboutme{
+    background-image: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564412/portfolio/updated%20logos/dark%20mode/bg-2_rjjmo1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    width: 90vw;
+    height: 100vh;
+}
+
+.mariel{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10em;
+    padding: 2.5em;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 2.5em;
+
+    width: 20em;
+
+    transition: 1s;
+}
+
+.mariel p{
+    text-align: center;
+    font-family: var(--font-three);
+}
+
+.mariel .name{
+    font-size: 2em;
+}
+
+.marielProfilePic{
+    width: 15em;
+    margin: 1.5em;
+    margin-top: 0;
+    border-radius: 50%;
+    border: 5px solid var(--dark-mauv);
+}
+
+.contactus{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    margin-top: 2em;
+    z-index: 10;
+}
+
+.contactus img{
+    width: 2em;
+    margin: 1.5em;
+
+    transition: 1s;
+}
+
+
+.mariel:hover{
+    box-shadow: 0 0 50px var(--pink);
+}
+
+.contactus img:hover{
+    transform: translateY(-5px);
+}
+
+@media (max-width: 1245px) { 
+    .aboutme{
+        background-image: none;
+    }
+
+    .mariel{
+        width: 20em;
+    }
+        
+  
+ }
+
+ .mercury {
+    text-decoration: none;
+    color: var(--pink);
+ }
