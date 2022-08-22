@@ -1,11 +1,15 @@
-import { React, useState } from 'react';
+import { React, useState, useEffect } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
 import { darkModeAssests, lightModeAssests } from "../mode/mode"
 
 import "./navbar.css"
 
 const Navbar = () => {
-  let mode = "dark-mode"
+  const [mode, setMode] = useState()
+
+  useEffect(() => {
+    setMode(localStorage.getItem('mode'))
+  }, [localStorage.getItem('mode')]);
 
   return (
     <div className='navbar'>

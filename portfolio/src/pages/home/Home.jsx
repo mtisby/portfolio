@@ -2,7 +2,7 @@ import { React, useState } from 'react';
 
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar';
-import AboutMe from '../about_me/Aboutme';
+import AboutMe from '../about_me/aboutme';
 import Projects from '../projects/Projects';
 
 import "./home.css"
