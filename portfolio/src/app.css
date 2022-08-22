@@ -1,63 +1,38 @@
-html{
-    background-color: #000000;
-    --pink: #ffb1e0;
-    --pink-two: #ff75c8;
-
-    --font: 'IBM Plex Mono', monospace;
-    --font-one:'Roboto Mono', monospace;
-    --font-two:'Roboto', sans-serif;
+.App {
+  text-align: center;
 }
 
-.dark-mode{
-    background-color: #000000;
-    --pink: #ffb1e0;
-    --pink-two: #ff75c8;
-
-    --font: 'IBM Plex Mono', monospace;
-    --font-one:'Roboto Mono', monospace;
-    --font-two:'Roboto', sans-serif;
-
-    --bg-img: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564412/portfolio/updated%20logos/dark%20mode/bg-2_rjjmo1.png');
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.light-mode{
-    background-color: #ffffff;
-    --navy: #021776;
-    --pink-two: #ff75c8;
-
-    --font: 'IBM Plex Mono', monospace;
-    --font-one:'Roboto Mono', monospace;
-    --font-two:'Roboto', sans-serif;
-
-    --bg-img: url('https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564412/portfolio/updated%20logos/dark%20mode/bg-2_rjjmo1.png');
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-*{
-    margin: 0;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.App{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
-    color: var(--pink);
-    font-family: var(--font);
+.App-link {
+  color: #61dafb;
 }
 
-.App a{
-    text-decoration: none;
-    color: var(--pink-two);
-}
-
-.text{
-    width: 40vw;
-    text-align: center;
-    margin-top: 0;
-}
-
-::-webkit-scrollbar{
-    display: none;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
