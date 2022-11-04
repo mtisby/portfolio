@@ -1,15 +1,10 @@
 import { React, useState, useEffect } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
-import { darkModeAssests, lightModeAssests } from "../mode/mode"
+import { modes } from "../mode/mode"
 
 import "./navbar.css"
 
 const Navbar = () => {
-  const [mode, setMode] = useState()
-
-  useEffect(() => {
-    setMode(localStorage.getItem('mode'))
-  }, [localStorage.getItem('mode')]);
 
   return (
     <div className='navbar'>
@@ -23,8 +18,8 @@ const Navbar = () => {
         <Link to='projects' smooth={true}>
           <p>Projects</p>
         </Link>
-        <a target="_blank" href="https://docs.google.com/document/d/1BVQTIlIHhvjXhMXVxH7-L1vTFLRkhV4bye12D-nbcGc/edit?usp=sharing" download="mtisby-resume">
-          <p>Resume <img src={ mode === 'dark-mode' ? darkModeAssests['download'] : lightModeAssests['download'] } alt="download image" /></p>
+        <a target="_blank" href="https://docs.google.com/document/d/149-JdIp1vCPTa6pvuvHrYBKWGqjQkOcWkmZYYtvwqwQ/edit?usp=sharing" download="mtisby-resume">
+          <p>Resume <img src={ modes['dark-mode']['download'] } alt="download image" /></p>
         </a>
       </div>
     </div>
