@@ -10,7 +10,7 @@ html {
 }
 
 .projects {
-    margin: 5em;
+    margin: 10em 5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,15 +28,15 @@ html {
 .projects-grid {
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(4, 1fr);
-    width: 65vw;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50vw;
 }
 
 .grid-col-span-2 {
     grid-column: span 2;
 }
 
-.cinema-save {
+/* .cinema-save {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -65,7 +65,7 @@ html {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 5;
-}
+} */
 
 .sheNetworks img {
     width: 30%;
@@ -82,6 +82,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2em 1em;
 }
 
 .buttonDiv img {

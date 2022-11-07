@@ -31,14 +31,6 @@ function Projects() {
     <div className='projects'>
       <h1 className='header'>Projects</h1>
       <div className='projects-grid'>
-        <div className="projectDiv grid-col-span-2 cinema-save">
-            <p className='currentProj'>Current Working Project</p>
-            <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645737116/portfolio/cinema-save_agg2ay.png" id="cinema-save"/>
-            <div className="buttonDiv">
-                <a target="_blank" href="https://mtisby.github.io/cinema-save-client/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
-                <a target="_blank" href="https://github.com/mtisby/cinema-save-client"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
-            </div>
-        </div>
         <div className="projectDiv cheflavor">
             {/* <h1 className="projectHeader">Cheflavor</h1> */}
             <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742752/portfolio/Portfolio_rrh6em.png" alt="cheflavor website gif" id="cheflavor"/> 
