@@ -52,7 +52,7 @@ function Projects() {
             {/* <h1 className="projectHeader">Poodle Doodle</h1> */}
             <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742752/portfolio/poodle-doodle_m9fv1l.png" alt="poodle doodle website gif" id="poodle-doodle"/>
             <div className="buttonDiv">
-                <a target="_blank" href="https://pacific-bastion-50258.herokuapp.com/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
+                <a target="_blank" href="https://poodledoodle.onrender.com"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 <a target="_blank" href="https://github.com/mtisby/paint-app"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
                 <a target="_blank" href="https://www.linkedin.com/posts/mtisby_from-nov-16-nov-23-i-participated-in-activity-6887906871664095232-qMPj?utm_source=linkedin_share&utm_medium=member_desktop_web"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564407/portfolio/updated%20logos/dark%20mode/linkeding_zbqaz5.png" alt="linkedin logo" /></a>
 
@@ -63,7 +63,7 @@ function Projects() {
             {/* <h1 className="projectHeader">sheNetworks</h1> */}
             <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742963/portfolio/sheNetworks_qnvk1z.png" id="sheNetworks"/> 
             <div className="buttonDiv">
-                <a target="_blank" href="https://quiet-anchorage-71064.herokuapp.com/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
+                <a target="_blank" href="https://shenetworks.onrender.com"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 <a target="_blank" href="https://github.com/mtisby/she-hacks"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
                 <a target="_blank" href="https://devpost.com/software/shenetworks"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1646088627/portfolio/updated%20logos/dark%20mode/Portfolio_z8jbxz.png" alt="devpost logo" className='sheNetworks-devpost' /></a>
             </div>
