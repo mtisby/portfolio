@@ -35,7 +35,7 @@ function Projects() {
             {/* <h1 className="projectHeader">Cheflavor</h1> */}
             <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742752/portfolio/Portfolio_rrh6em.png" alt="cheflavor website gif" id="cheflavor"/> 
             <div className="buttonDiv">
-                <a target="_blank" href="https://protected-scrubland-89262.herokuapp.com/cheflavor"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
+                <a target="_blank" href="https://cheflavor.onrender.com/cheflavor"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 <a target="_blank" href="https://github.com/mtisby/cheflavor"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
             </div>
         </div>
@@ -43,7 +43,7 @@ function Projects() {
             {/* <h1 className="projectHeader">Cheflavor Staff Portal</h1> */}
             <img onMouseEnter={handleHoverEnter} onMouseLeave={ handleHoverLeave } src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645742752/portfolio/cheflavor-staffportal_mcskfu.png" id="cheflavor-staffportal"/>
             <div className="buttonDiv">
-                <a target="_blank" href="https://protected-scrubland-89262.herokuapp.com/cheflavor/stafflogin/login"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
+                <a target="_blank" href="https://cheflavor.onrender.com/cheflavor/stafflogin/login"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 <a target="_blank" href="https://github.com/mtisby/cheflavor"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645564388/portfolio/updated%20logos/dark%20mode/github_adzghe.png" alt="github repo logo" /></a>
             </div>
         </div>
