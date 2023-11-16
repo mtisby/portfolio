@@ -32,6 +32,12 @@ html {
     width: 50vw;
 }
 
+.professional-projects-grid {
+    display: grid;
+    gap: 1.5rem;
+    width: 25vw;
+}
+
 .grid-col-span-2 {
     grid-column: span 2;
 }
@@ -83,6 +89,17 @@ html {
     align-items: center;
     justify-content: center;
     padding: 2em 1em;
+}
+
+#bally-sports {
+    width: 50%;
+}
+
+.description {
+    width: 75%;
+    text-align: center;
+    font-family: var(--font-three);
+    font-size: medium;
 }
 
 .buttonDiv img {

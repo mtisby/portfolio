@@ -8,7 +8,7 @@ function Projects() {
     "cheflavor-staffportal": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645748628/portfolio/cheflavor-staffportal_lon02y.png",
     "poodle-doodle": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645745521/portfolio/poodle_doodle_hsuj6f.png",
     "sheNetworks": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645748410/portfolio/sheNetworks_cekap1.png",
-    "cinema-save": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1646087274/portfolio/Screen_Shot_2022-02-28_at_2.27.34_PM_efxk0u.png"
+    "bally-sports": "https://res.cloudinary.com/dr0ofxgkz/image/upload/v1700094786/portfolio/Screen_Shot_2023-11-15_at_4.30.11_PM_wfnhez.png"
   }
 
   const handleHoverEnter = (e) => {
@@ -29,7 +29,19 @@ function Projects() {
 
   return (
     <div className='projects'>
-      <h1 className='header'>Projects</h1>
+        <h1 className='header'>Projects</h1>
+        <div className="professional-projects-grid">
+            <div className='projectDiv'>
+                <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1700094929/portfolio/Bally_Sports_app_logo_lbwfcr.png" alt="bally sports website" id="bally-sports"/> 
+                <div className='description'>
+                    <p>Bally Sports is a premier sports streaming service designed to bring the thrill of live sports directly to your screen. Whether you're a devoted fan or a casual viewer, our platform offers an immersive and personalized experience, showcasing a wide range of sports events from around the world.</p>
+                </div>
+                <div className="buttonDiv">
+                    <a target="_blank" href="https://www.ballysports.com/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
+                </div>
+            </div>
+        </div>
+      <h1 className='header'>Personal Projects</h1>
       <div className='projects-grid'>
         <div className="projectDiv cheflavor">
             {/* <h1 className="projectHeader">Cheflavor</h1> */}
