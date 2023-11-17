@@ -30,7 +30,7 @@ function Projects() {
   return (
     <div className='projects'>
         <h1 className='header'>Projects</h1>
-        <div className="professional-projects-grid">
+        {/* <div className="professional-projects-grid">
             <div className='projectDiv'>
                 <img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1700094929/portfolio/Bally_Sports_app_logo_lbwfcr.png" alt="bally sports website" id="bally-sports"/> 
                 <div className='description'>
@@ -40,7 +40,7 @@ function Projects() {
                     <a target="_blank" href="https://www.ballysports.com/"><img src="https://res.cloudinary.com/dr0ofxgkz/image/upload/v1645730403/portfolio/updated%20logos/dark%20mode/internet_gippym.png" alt="website logo" /></a>
                 </div>
             </div>
-        </div>
+        </div> */}
       <h1 className='header'>Personal Projects</h1>
       <div className='projects-grid'>
         <div className="projectDiv cheflavor">
