@@ -18,7 +18,7 @@ const Navbar = () => {
         <Link to='projects' smooth={true}>
           <p>Projects</p>
         </Link>
-        <a target="_blank" href="https://docs.google.com/document/d/149-JdIp1vCPTa6pvuvHrYBKWGqjQkOcWkmZYYtvwqwQ/edit?usp=sharing" download="mtisby-resume">
+        <a target="_blank" href="https://docs.google.com/document/d/1BVQTIlIHhvjXhMXVxH7-L1vTFLRkhV4bye12D-nbcGc/edit?usp=sharing" download="mtisby-resume">
           <p>Resume <img src={ modes['dark-mode']['download'] } alt="download image" /></p>
         </a>
       </div>
